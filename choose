@@ -1,0 +1,25 @@
+  
+# function for choosing a word from the given words 
+def choose(): 
+    
+    #if u want you can add few more words or u can also delete the words 
+    #but dont delete all the words you will have nothing to guess
+    
+    
+    words = ['github', 'computer', 'science', 'programming', 
+             'python', 'opensource', 'error', 'linux', 
+             'hack', 'kaali', 'geeks','blockchain'] 
+    
+    
+    print(" ")
+    print(" ")
+    print("So u think you are ready, so lets start the Jumbed-Guess :")
+    
+    
+    #printing the words for the players to give a option.
+    
+    print(words)
+    
+    pick = random.choice(words) 
+  
+    return pick 
