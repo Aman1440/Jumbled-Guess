@@ -1,0 +1,17 @@
+# Function for shuffling the 
+# characters of the chosen word. 
+
+def jumble(word): 
+
+# sample() method shuffling the characters of the word 
+
+
+random_word = random.sample(word, len(word)) 
+  
+    # join() method join the elements 
+    # of the iterator(e.g. list) with particular character . 
+
+
+jumbled = ''.join(random_word) 
+    return jumbled 
+  
