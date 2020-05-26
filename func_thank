@@ -1,0 +1,8 @@
+def thank(p1n, p2n, p1, p2): 
+    print(p1n, 'Your score is :', p1) 
+    print(p2n, 'Your score is :', p2) 
+  
+    # check_win() function calling 
+    check_win(p1n, p2n, p1, p2) 
+  
+    print('Thanks for playing...') 
