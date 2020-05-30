@@ -1,0 +1,7 @@
+def check_win(player1, player2, p1score, p2score): 
+    if p1score > p2score: 
+        print("winner is :", player1) 
+    elif p2score > p1score: 
+        print("winner is :", player2) 
+    else: 
+        print("Draw..Well Played guys..") 
